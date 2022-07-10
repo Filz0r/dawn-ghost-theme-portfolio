@@ -1,0 +1,25 @@
+<footer class="site-footer container">
+    <div class="social">
+        {{#if @site.facebook}}
+            <a class="social-item social-item-facebook"
+                href="{{facebook_url @site.facebook}}" target="_blank"
+                rel="noopener noreferrer" aria-label="Facebook">
+                <svg class="icon">
+                    <use xlink:href="#facebook-box"></use>
+                </svg>
+            </a>
+        {{/if}}
+        {{#if @site.twitter}}
+            <a class="social-item social-item-twitter"
+                href="{{twitter_url @site.twitter}}" target="_blank"
+                rel="noopener noreferrer" aria-label="Twitter">
+                <svg class="icon">
+                    <use xlink:href="#twitter-box"></use>
+                </svg>
+            </a>
+        {{/if}}
+    </div>
+    <nav class="footer-nav">
+        {{navigation type="secondary"}}
+    </nav>
+</footer>
