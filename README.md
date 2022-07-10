@@ -5,4 +5,4 @@ This theme was modified with the intent of making an online portfolio, because G
 
 If you want to customize a theme to have a custom homepage like I do you can follow this [guide](https://jamesthorne.com/blog/adding-a-custom-homepage-on-ghost/) to replicate my results. And finally I would like to leave a disclaimer since the only experience I have with handlebars is building this theme, there can be issues and certain files that are not required.
 
-You can see what the theme looks like in my web portfolio in [here](https://www.filipefigueiredo.xyz)
+You can see what the theme looks like in my web portfolio in [here](https://www.filipefigueiredo.xyz).
